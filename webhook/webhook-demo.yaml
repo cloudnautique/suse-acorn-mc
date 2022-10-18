@@ -9,7 +9,7 @@ spec:
   - protocol: http
     publish: true
     serviceName: webhook.mc.cloudnautique.com
-    targetServiceName: www
+    targetServiceName: default
   services:
   - service: mongo
     target: mongo
