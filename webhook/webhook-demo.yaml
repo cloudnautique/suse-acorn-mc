@@ -4,7 +4,7 @@ metadata:
   name: frosty-violet
   namespace: acorn
 spec:
-  image: ghcr.io/cloudnautique/webhook-demo:v0.0.1
+  image: ghcr.io/cloudnautique/webhook-demo:v0.0.2
   ports:
   - protocol: http
     publish: true
