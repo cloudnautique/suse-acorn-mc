@@ -1,0 +1,9 @@
+apiVersion: api.acorn.io/v1
+kind: App
+metadata:
+  name: mongo
+  namespace: acorn
+spec:
+  deployArgs:
+    authEnabled: false
+  image: ghcr.io/acorn-io/library/mongodb

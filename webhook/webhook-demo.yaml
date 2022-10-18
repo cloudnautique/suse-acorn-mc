@@ -1,7 +1,7 @@
 apiVersion: api.acorn.io/v1
 kind: App
 metadata:
-  name: fragrant-wave
+  name: frosty-violet
   namespace: acorn
 spec:
   image: ghcr.io/cloudnautique/webhook-demo:v0.0.1
@@ -10,3 +10,6 @@ spec:
     publish: true
     serviceName: webhook.mc.cloudnautique.com
     targetServiceName: www
+  services:
+  - service: mongo
+    target: mongo
